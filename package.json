@@ -53,7 +53,6 @@
         "tunnel": "lt --port 4000",
         "start": "PRODUCTION=true node build/init.js",
         "prestart": "npm run build"
-
     },
     "devDependencies": {
         "@babel/cli": "^7.13.0",
